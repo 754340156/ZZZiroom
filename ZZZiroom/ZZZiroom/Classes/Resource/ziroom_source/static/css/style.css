@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+body{margin:0; padding:0; font-size:12px; line-height:150%;  }
+ul li{list-style-type:none;} 
+input{border:0;}
+img{ border:0;}
+a{ text-decoration:none;color:#333; }
+a:hover{ color:#f60; text-decoration:none;}
+/*-------------------------*/
+/*---------------优企会----------*/
+.tq_area{ }
+.tq_area_h{ height:90px; line-height:90px; background:url(../images/back@2x.png) 0px 0px no-repeat #2db7b7; color:#fff; font-size:16px; text-align:center;font-family:"Microsoft YaHei",Simsun,sans-serif; }
+.tq_area_c{ line-height:22px;font-family:"Microsoft YaHei",Simsun,sans-serif; margin-top:0px;}
+.tq_area_imgbox{  }
+.tq_area_imgbox img{ margin:20px auto;  margin-bottom:5px;display:block;}
+.tq_area_textbox{ padding:10px;}
+.tq_area_textbox h2{font-size:14px; color:#333;}
+.tq_area_textbox p{ text-indent:2em;font-size:12px; padding-bottom:10px;color:#666; line-height:1.5;}
+.tq_area_textbox p.li{text-indent:1em;  }
+.tq_area_textbox p.ti{text-indent:0em;  }
+.fb{ font-weight:bold;}
+.cred{ color:#f00;}
+.cblue{ color:#36C;}
+
+/*---------------优企会----------*/
