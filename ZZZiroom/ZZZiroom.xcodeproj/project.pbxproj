@@ -51,6 +51,7 @@
 		D66DBB1A1D53359900056EE2 /* libSocialWechat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D66DBB021D53359900056EE2 /* libSocialWechat.a */; };
 		D66DBB1B1D53359900056EE2 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D66DBB031D53359900056EE2 /* libWeChatSDK.a */; };
 		D66DBB1C1D53359900056EE2 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = D66DBB041D53359900056EE2 /* README.txt */; };
+		D6FAB86D1D588573004A8B5F /* ZRRoomConfigsWithImages.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6FAB86C1D588573004A8B5F /* ZRRoomConfigsWithImages.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -130,6 +131,7 @@
 		D66DBB061D53359900056EE2 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
 		D66DBB071D53359900056EE2 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		D66DBB081D53359900056EE2 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		D6FAB86C1D588573004A8B5F /* ZRRoomConfigsWithImages.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ZRRoomConfigsWithImages.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +258,7 @@
 				D66DBAAE1D53352100056EE2 /* ziroom_source */,
 				D66DBABA1D53352100056EE2 /* ZRServiceSetting_SIT.plist */,
 				D66DBABB1D53352100056EE2 /* ZRServiceSetting_UAT.plist */,
+				D6FAB86C1D588573004A8B5F /* ZRRoomConfigsWithImages.plist */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -492,6 +495,7 @@
 				D66DBAC41D53352100056EE2 /* PushConfig.plist in Resources */,
 				D66DBAC81D53352100056EE2 /* style.css in Resources */,
 				D66DBACC1D53352100056EE2 /* jquery.js in Resources */,
+				D6FAB86D1D588573004A8B5F /* ZRRoomConfigsWithImages.plist in Resources */,
 				D66DBB1C1D53359900056EE2 /* README.txt in Resources */,
 				D66DBB091D53359900056EE2 /* UMSocialLocalizable.strings in Resources */,
 				D66DBAC11D53352100056EE2 /* KKPickerProvice.plist in Resources */,
