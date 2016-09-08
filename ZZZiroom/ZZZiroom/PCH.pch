@@ -1,0 +1,38 @@
+
+//
+//  PCH.pch
+//  ZZZiroom
+//
+//  Created by 赵哲 on 16/8/9.
+//  Copyright © 2016年 赵哲. All rights reserved.
+//
+
+#ifndef PCH_pch
+#define PCH_pch
+
+
+#pragma mark - Frame相关
+// 屏幕宽/高
+#define ZZScreenWidth  [UIScreen mainScreen].bounds.size.width
+#define ZZScreenHeight [UIScreen mainScreen].bounds.size.height
+//屏幕适配
+#define ZZRealValue(value) ((value)/375.0f * [UIScreen mainScreen].bounds.size.width)
+
+
+#pragma mark - 颜色
+#define Color(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+
+
+#pragma mark - 导入库
+#import <Masonry/Masonry.h>
+#import "UIView+Extension.h"
+
+
+
+
+#ifdef DEBUG
+#define GHZLog(...) NSLog(__VA_ARGS__)
+#else
+#define GHZLog(...)
+#endif
+#endif /* PCH_pch */

@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21A92091AFD55FB0DAA1578D /* Pods_ZZZiroom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E599CAE983ADE60D38825473 /* Pods_ZZZiroom.framework */; };
+		D632AF701D598E1800B30967 /* ZZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D632AF6F1D598E1800B30967 /* ZZBaseViewController.m */; };
+		D632AF731D598E5900B30967 /* ZZBaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = D632AF721D598E5900B30967 /* ZZBaseNavController.m */; };
+		D65589A31D599E4E00EB2A73 /* UIDevice+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D65589A21D599E4E00EB2A73 /* UIDevice+Extension.m */; };
+		D65589A61D599E9900EB2A73 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D65589A51D599E9900EB2A73 /* UIImage+Extension.m */; };
+		D65589A91D599ED300EB2A73 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D65589A81D599ED300EB2A73 /* UIView+Extension.m */; };
+		D65589AE1D59A02400EB2A73 /* ZZConst.m in Sources */ = {isa = PBXBuildFile; fileRef = D65589AD1D59A02400EB2A73 /* ZZConst.m */; };
+		D65589B61D59A32A00EB2A73 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D65589B51D59A32A00EB2A73 /* ImageIO.framework */; };
 		D66DBA881D5332DB00056EE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D66DBA871D5332DB00056EE2 /* main.m */; };
 		D66DBA8B1D5332DB00056EE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D66DBA8A1D5332DB00056EE2 /* AppDelegate.m */; };
 		D66DBA911D5332DB00056EE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D66DBA8F1D5332DB00056EE2 /* Main.storyboard */; };
@@ -55,10 +63,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		724425561707D7CEF8F0C5B5 /* Pods-ZZZiroom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZZiroom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZZiroom/Pods-ZZZiroom.debug.xcconfig"; sourceTree = "<group>"; };
+		A0DC3D63E0B9D9E9CCFBE9D4 /* Pods-ZZZiroom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZZiroom.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZZiroom/Pods-ZZZiroom.release.xcconfig"; sourceTree = "<group>"; };
+		D632AF6E1D598E1800B30967 /* ZZBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZBaseViewController.h; sourceTree = "<group>"; };
+		D632AF6F1D598E1800B30967 /* ZZBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZBaseViewController.m; sourceTree = "<group>"; };
+		D632AF711D598E5900B30967 /* ZZBaseNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZBaseNavController.h; sourceTree = "<group>"; };
+		D632AF721D598E5900B30967 /* ZZBaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZBaseNavController.m; sourceTree = "<group>"; };
+		D65589A11D599E4E00EB2A73 /* UIDevice+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "UIDevice+Extension.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D65589A21D599E4E00EB2A73 /* UIDevice+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "UIDevice+Extension.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D65589A41D599E9900EB2A73 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "UIImage+Extension.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D65589A51D599E9900EB2A73 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "UIImage+Extension.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D65589A71D599ED300EB2A73 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		D65589A81D599ED300EB2A73 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		D65589AA1D599F5500EB2A73 /* PCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PCH.pch; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D65589AC1D59A02400EB2A73 /* ZZConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZConst.h; sourceTree = "<group>"; };
+		D65589AD1D59A02400EB2A73 /* ZZConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZConst.m; sourceTree = "<group>"; };
+		D65589B51D59A32A00EB2A73 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		D656C9CB1D5A06B000AB7C29 /* Interfaces.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Interfaces.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		D66DBA831D5332DB00056EE2 /* ZZZiroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZZiroom.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D66DBA871D5332DB00056EE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D66DBA891D5332DB00056EE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D66DBA8A1D5332DB00056EE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D66DBA871D5332DB00056EE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		D66DBA891D5332DB00056EE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D66DBA8A1D5332DB00056EE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		D66DBA901D5332DB00056EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D66DBA921D5332DB00056EE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D66DBA951D5332DB00056EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -132,6 +157,7 @@
 		D66DBB071D53359900056EE2 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		D66DBB081D53359900056EE2 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		D6FAB86C1D588573004A8B5F /* ZRRoomConfigsWithImages.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ZRRoomConfigsWithImages.plist; sourceTree = "<group>"; };
+		E599CAE983ADE60D38825473 /* Pods_ZZZiroom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZZiroom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +165,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D65589B61D59A32A00EB2A73 /* ImageIO.framework in Frameworks */,
 				D66DBB1B1D53359900056EE2 /* libWeChatSDK.a in Frameworks */,
 				D66DBB181D53359900056EE2 /* TencentOpenAPI.framework in Frameworks */,
 				D66DBB171D53359900056EE2 /* libSocialQQ.a in Frameworks */,
@@ -146,17 +173,349 @@
 				D66DBB151D53359900056EE2 /* libWeiboSDK.a in Frameworks */,
 				D66DBB1A1D53359900056EE2 /* libSocialWechat.a in Frameworks */,
 				D66DBB141D53359900056EE2 /* libSocialSinaSSO.a in Frameworks */,
+				21A92091AFD55FB0DAA1578D /* Pods_ZZZiroom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D63585F4CFBE8FD0AC81931 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D65589B51D59A32A00EB2A73 /* ImageIO.framework */,
+				E599CAE983ADE60D38825473 /* Pods_ZZZiroom.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		545529AEA9797D5DEF97FF33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				724425561707D7CEF8F0C5B5 /* Pods-ZZZiroom.debug.xcconfig */,
+				A0DC3D63E0B9D9E9CCFBE9D4 /* Pods-ZZZiroom.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D632AF471D598DEF00B30967 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D632AF481D598DEF00B30967 /* Life */,
+				D632AF591D598DEF00B30967 /* Reside */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D632AF481D598DEF00B30967 /* Life */ = {
+			isa = PBXGroup;
+			children = (
+				D632AF491D598DEF00B30967 /* 优品 */,
+				D632AF4D1D598DEF00B30967 /* 保洁 */,
+				D632AF511D598DEF00B30967 /* 家修 */,
+				D632AF551D598DEF00B30967 /* 搬家 */,
+			);
+			path = Life;
+			sourceTree = "<group>";
+		};
+		D632AF491D598DEF00B30967 /* 优品 */ = {
+			isa = PBXGroup;
+			children = (
+				D632AF4A1D598DEF00B30967 /* Controller */,
+				D632AF4B1D598DEF00B30967 /* Model */,
+				D632AF4C1D598DEF00B30967 /* View */,
+			);
+			path = "优品";
+			sourceTree = "<group>";
+		};
+		D632AF4A1D598DEF00B30967 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D632AF4B1D598DEF00B30967 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D632AF4C1D598DEF00B30967 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D632AF4D1D598DEF00B30967 /* 保洁 */ = {
+			isa = PBXGroup;
+			children = (
+				D632AF4E1D598DEF00B30967 /* Controller */,
+				D632AF4F1D598DEF00B30967 /* Model */,
+				D632AF501D598DEF00B30967 /* View */,
+			);
+			path = "保洁";
+			sourceTree = "<group>";
+		};
+		D632AF4E1D598DEF00B30967 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D632AF4F1D598DEF00B30967 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D632AF501D598DEF00B30967 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D632AF511D598DEF00B30967 /* 家修 */ = {
+			isa = PBXGroup;
+			children = (
+				D632AF521D598DEF00B30967 /* Controller */,
+				D632AF531D598DEF00B30967 /* Model */,
+				D632AF541D598DEF00B30967 /* View */,
+			);
+			path = "家修";
+			sourceTree = "<group>";
+		};
+		D632AF521D598DEF00B30967 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D632AF531D598DEF00B30967 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D632AF541D598DEF00B30967 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D632AF551D598DEF00B30967 /* 搬家 */ = {
+			isa = PBXGroup;
+			children = (
+				D632AF561D598DEF00B30967 /* Controller */,
+				D632AF571D598DEF00B30967 /* Model */,
+				D632AF581D598DEF00B30967 /* View */,
+			);
+			path = "搬家";
+			sourceTree = "<group>";
+		};
+		D632AF561D598DEF00B30967 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D632AF571D598DEF00B30967 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D632AF581D598DEF00B30967 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D632AF591D598DEF00B30967 /* Reside */ = {
+			isa = PBXGroup;
+			children = (
+				D632AF5A1D598DEF00B30967 /* 友家 */,
+				D632AF5E1D598DEF00B30967 /* 整租 */,
+				D632AF621D598DEF00B30967 /* 民宿 */,
+				D632AF661D598DEF00B30967 /* 自如寓 */,
+				D632AF6A1D598DEF00B30967 /* 自如驿 */,
+			);
+			path = Reside;
+			sourceTree = "<group>";
+		};
+		D632AF5A1D598DEF00B30967 /* 友家 */ = {
+			isa = PBXGroup;
+			children = (
+				D632AF5B1D598DEF00B30967 /* Controller */,
+				D632AF5C1D598DEF00B30967 /* Model */,
+				D632AF5D1D598DEF00B30967 /* View */,
+			);
+			path = "友家";
+			sourceTree = "<group>";
+		};
+		D632AF5B1D598DEF00B30967 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D632AF5C1D598DEF00B30967 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D632AF5D1D598DEF00B30967 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D632AF5E1D598DEF00B30967 /* 整租 */ = {
+			isa = PBXGroup;
+			children = (
+				D632AF5F1D598DEF00B30967 /* Controller */,
+				D632AF601D598DEF00B30967 /* Model */,
+				D632AF611D598DEF00B30967 /* View */,
+			);
+			path = "整租";
+			sourceTree = "<group>";
+		};
+		D632AF5F1D598DEF00B30967 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D632AF601D598DEF00B30967 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D632AF611D598DEF00B30967 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D632AF621D598DEF00B30967 /* 民宿 */ = {
+			isa = PBXGroup;
+			children = (
+				D632AF631D598DEF00B30967 /* Controller */,
+				D632AF641D598DEF00B30967 /* Model */,
+				D632AF651D598DEF00B30967 /* View */,
+			);
+			path = "民宿";
+			sourceTree = "<group>";
+		};
+		D632AF631D598DEF00B30967 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D632AF641D598DEF00B30967 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D632AF651D598DEF00B30967 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D632AF661D598DEF00B30967 /* 自如寓 */ = {
+			isa = PBXGroup;
+			children = (
+				D632AF671D598DEF00B30967 /* Controller */,
+				D632AF681D598DEF00B30967 /* Model */,
+				D632AF691D598DEF00B30967 /* View */,
+			);
+			path = "自如寓";
+			sourceTree = "<group>";
+		};
+		D632AF671D598DEF00B30967 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D632AF681D598DEF00B30967 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D632AF691D598DEF00B30967 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D632AF6A1D598DEF00B30967 /* 自如驿 */ = {
+			isa = PBXGroup;
+			children = (
+				D632AF6B1D598DEF00B30967 /* Controller */,
+				D632AF6C1D598DEF00B30967 /* Model */,
+				D632AF6D1D598DEF00B30967 /* View */,
+			);
+			path = "自如驿";
+			sourceTree = "<group>";
+		};
+		D632AF6B1D598DEF00B30967 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D632AF6C1D598DEF00B30967 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D632AF6D1D598DEF00B30967 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D66DBA7A1D5332DB00056EE2 = {
 			isa = PBXGroup;
 			children = (
 				D66DBA851D5332DB00056EE2 /* ZZZiroom */,
 				D66DBA841D5332DB00056EE2 /* Products */,
+				545529AEA9797D5DEF97FF33 /* Pods */,
+				1D63585F4CFBE8FD0AC81931 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,6 +533,8 @@
 				D66DBA9D1D53352100056EE2 /* Classes */,
 				D66DBA891D5332DB00056EE2 /* AppDelegate.h */,
 				D66DBA8A1D5332DB00056EE2 /* AppDelegate.m */,
+				D65589AA1D599F5500EB2A73 /* PCH.pch */,
+				D656C9CB1D5A06B000AB7C29 /* Interfaces.h */,
 				D66DBA861D5332DB00056EE2 /* Supporting Files */,
 			);
 			path = ZZZiroom;
@@ -196,7 +557,7 @@
 			children = (
 				D66DBA9E1D53352100056EE2 /* Base */,
 				D66DBA9F1D53352100056EE2 /* Category */,
-				D66DBAA01D53352100056EE2 /* Home */,
+				D632AF471D598DEF00B30967 /* Home */,
 				D66DBAA11D53352100056EE2 /* Lib */,
 				D66DBAA21D53352100056EE2 /* Other */,
 				D66DBAA31D53352100056EE2 /* Resource */,
@@ -208,6 +569,10 @@
 		D66DBA9E1D53352100056EE2 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				D632AF6E1D598E1800B30967 /* ZZBaseViewController.h */,
+				D632AF6F1D598E1800B30967 /* ZZBaseViewController.m */,
+				D632AF711D598E5900B30967 /* ZZBaseNavController.h */,
+				D632AF721D598E5900B30967 /* ZZBaseNavController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -215,15 +580,14 @@
 		D66DBA9F1D53352100056EE2 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				D65589A11D599E4E00EB2A73 /* UIDevice+Extension.h */,
+				D65589A21D599E4E00EB2A73 /* UIDevice+Extension.m */,
+				D65589A41D599E9900EB2A73 /* UIImage+Extension.h */,
+				D65589A51D599E9900EB2A73 /* UIImage+Extension.m */,
+				D65589A71D599ED300EB2A73 /* UIView+Extension.h */,
+				D65589A81D599ED300EB2A73 /* UIView+Extension.m */,
 			);
 			path = Category;
-			sourceTree = "<group>";
-		};
-		D66DBAA01D53352100056EE2 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Home;
 			sourceTree = "<group>";
 		};
 		D66DBAA11D53352100056EE2 /* Lib */ = {
@@ -312,6 +676,8 @@
 		D66DBABC1D53352100056EE2 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				D65589AC1D59A02400EB2A73 /* ZZConst.h */,
+				D65589AD1D59A02400EB2A73 /* ZZConst.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -425,9 +791,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D66DBA9A1D5332DB00056EE2 /* Build configuration list for PBXNativeTarget "ZZZiroom" */;
 			buildPhases = (
+				CC71C485A0D83BC47197A951 /* 📦 Check Pods Manifest.lock */,
 				D66DBA7F1D5332DB00056EE2 /* Sources */,
 				D66DBA801D5332DB00056EE2 /* Frameworks */,
 				D66DBA811D5332DB00056EE2 /* Resources */,
+				ED00839B1391EA4921294EB5 /* 📦 Embed Pods Frameworks */,
+				396F2D4D50A4BF5BFF03DC16 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -517,12 +886,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		396F2D4D50A4BF5BFF03DC16 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZZZiroom/Pods-ZZZiroom-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC71C485A0D83BC47197A951 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED00839B1391EA4921294EB5 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZZZiroom/Pods-ZZZiroom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D66DBA7F1D5332DB00056EE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D65589A61D599E9900EB2A73 /* UIImage+Extension.m in Sources */,
+				D65589A31D599E4E00EB2A73 /* UIDevice+Extension.m in Sources */,
+				D632AF731D598E5900B30967 /* ZZBaseNavController.m in Sources */,
+				D632AF701D598E1800B30967 /* ZZBaseViewController.m in Sources */,
+				D65589AE1D59A02400EB2A73 /* ZZConst.m in Sources */,
 				D66DBA8B1D5332DB00056EE2 /* AppDelegate.m in Sources */,
+				D65589A91D599ED300EB2A73 /* UIView+Extension.m in Sources */,
 				D66DBA881D5332DB00056EE2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -584,6 +1007,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZZZiroom/PCH.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -626,6 +1050,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZZZiroom/PCH.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -642,6 +1067,7 @@
 		};
 		D66DBA9B1D5332DB00056EE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 724425561707D7CEF8F0C5B5 /* Pods-ZZZiroom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -667,6 +1093,7 @@
 		};
 		D66DBA9C1D5332DB00056EE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0DC3D63E0B9D9E9CCFBE9D4 /* Pods-ZZZiroom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

@@ -2,12 +2,12 @@
 //  AppDelegate.m
 //  ZZZiroom
 //
-//  Created by lanou3g on 16/8/4.
-//  Copyright © 2016年 lanou3g-22赵哲. All rights reserved.
+//  Created by 赵哲 on 16/8/4.
+//  Copyright © 2016年 赵哲. All rights reserved.
 //
 
 #import "AppDelegate.h"
-
+#import "ZZBaseTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -20,7 +20,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    self.window.rootViewController = [[UIViewController alloc] init];
+    ZZBaseTabBarController *tabBarVC = [[ZZBaseTabBarController alloc] init];
+    self.window.rootViewController = tabBarVC;
 
     return YES;
 }
