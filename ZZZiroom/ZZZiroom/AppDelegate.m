@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ZZBaseTabBarController.h"
+#import "ZZBaseTabBarViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -20,7 +20,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    ZZBaseTabBarController *tabBarVC = [[ZZBaseTabBarController alloc] init];
+    ZZBaseTabBarViewController *tabBarVC = [[ZZBaseTabBarViewController alloc] init];
     self.window.rootViewController = tabBarVC;
 
     return YES;

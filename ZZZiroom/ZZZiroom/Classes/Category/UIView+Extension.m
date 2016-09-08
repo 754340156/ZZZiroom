@@ -16,7 +16,21 @@
     CGRect viewRect = [view convertRect:view.bounds toView:nil];
     return CGRectIntersectsRect(selfRect, viewRect);
 }
-
+//
+- (void)setMaskTo:(UIView *)view byRoundingCorners:(UIRectCorner)corners cornerRadio:(CGFloat )cornerRadio
+{
+    UIBezierPath *rounded = [UIBezierPath bezierPathWithRoundedRect:view.bounds byRoundingCorners:corners cornerRadii:CGSizeMake(cornerRadio, cornerRadio)];
+    CAShapeLayer *shape = [[CAShapeLayer alloc] init];
+    [shape setPath:rounded.CGPath];
+    view.layer.mask = shape;
+}
+- (void)setCornerWithRadius:(CGFloat)radius borderWidth:(CGFloat)borderWidth borderColor:(UIColor *)borderColor
+{
+    self.layer.masksToBounds = YES;
+    self.layer.cornerRadius = radius;
+    self.layer.borderWidth = borderWidth;
+    self.layer.borderColor = borderColor.CGColor;
+}
 + (instancetype)ZZ_viewFromXib
 {
     
@@ -101,15 +115,5 @@
     frame.origin.y = ZZ_y;
     self.frame = frame;
 }
-- (void)setSize:(CGSize)size
-{
-    CGRect frame = self.frame;
-    frame.size = size;
-    self.frame = frame;
-}
 
-- (CGSize)size
-{
-    return self.frame.size;
-}
 @end

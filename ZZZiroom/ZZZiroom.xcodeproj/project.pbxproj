@@ -8,6 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		21A92091AFD55FB0DAA1578D /* Pods_ZZZiroom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E599CAE983ADE60D38825473 /* Pods_ZZZiroom.framework */; };
+		6E0B5D4D1D813EA100CAD043 /* YJ_HomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0B5D4C1D813EA100CAD043 /* YJ_HomePageController.m */; };
+		6E0B5D501D813EB600CAD043 /* ZZ_HomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0B5D4F1D813EB600CAD043 /* ZZ_HomePageController.m */; };
+		6E0B5D531D813ECA00CAD043 /* MS_HomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0B5D521D813ECA00CAD043 /* MS_HomePageController.m */; };
+		6E0B5D561D813EF100CAD043 /* ZRYU_HomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0B5D551D813EF100CAD043 /* ZRYU_HomePageController.m */; };
+		6E0B5D591D813F5700CAD043 /* ZRYI_HomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0B5D581D813F5700CAD043 /* ZRYI_HomePageController.m */; };
+		6E0B5D5C1D81428600CAD043 /* YP_HomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0B5D5B1D81428600CAD043 /* YP_HomePageController.m */; };
+		6E0B5D621D8142A700CAD043 /* JX_HomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0B5D611D8142A700CAD043 /* JX_HomePageController.m */; };
+		6E0B5D651D8142E500CAD043 /* BaoJ_HomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0B5D641D8142E500CAD043 /* BaoJ_HomePageController.m */; };
+		6E0B5D681D8142F500CAD043 /* BanJ_HomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0B5D671D8142F500CAD043 /* BanJ_HomePageController.m */; };
+		6E0B5D6F1D81434300CAD043 /* Profile_HomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0B5D6E1D81434300CAD043 /* Profile_HomePageController.m */; };
+		6E0B5D771D814AB000CAD043 /* ZZPublicMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0B5D761D814AB000CAD043 /* ZZPublicMethod.m */; };
+		6E2433A01D8134F30086E6AB /* ZZBaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E24339F1D8134F30086E6AB /* ZZBaseTabBarViewController.m */; };
+		6E4325F31D815FE50086EB4D /* YJ_HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4325F21D815FE50086EB4D /* YJ_HomeCell.m */; };
+		6E4326151D816C7C0086EB4D /* ZZHomeListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E43260B1D816C7C0086EB4D /* ZZHomeListController.m */; };
+		6E4326161D816C7C0086EB4D /* ZZHomeShowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E43260F1D816C7C0086EB4D /* ZZHomeShowController.m */; };
+		6E4326171D816C7C0086EB4D /* ZZHomePageCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4326121D816C7C0086EB4D /* ZZHomePageCollectionCell.m */; };
+		6E4326181D816C7C0086EB4D /* ZZHomePageHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4326141D816C7C0086EB4D /* ZZHomePageHeaderView.m */; };
+		6E43261B1D816E040086EB4D /* ZZHomeListMateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E43261A1D816E040086EB4D /* ZZHomeListMateView.m */; };
+		6E43261E1D816E860086EB4D /* ZZHomeListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E43261D1D816E860086EB4D /* ZZHomeListCell.m */; };
 		D632AF701D598E1800B30967 /* ZZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D632AF6F1D598E1800B30967 /* ZZBaseViewController.m */; };
 		D632AF731D598E5900B30967 /* ZZBaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = D632AF721D598E5900B30967 /* ZZBaseNavController.m */; };
 		D65589A31D599E4E00EB2A73 /* UIDevice+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D65589A21D599E4E00EB2A73 /* UIDevice+Extension.m */; };
@@ -63,6 +82,44 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E0B5D4B1D813EA100CAD043 /* YJ_HomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJ_HomePageController.h; sourceTree = "<group>"; };
+		6E0B5D4C1D813EA100CAD043 /* YJ_HomePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJ_HomePageController.m; sourceTree = "<group>"; };
+		6E0B5D4E1D813EB600CAD043 /* ZZ_HomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZ_HomePageController.h; sourceTree = "<group>"; };
+		6E0B5D4F1D813EB600CAD043 /* ZZ_HomePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZ_HomePageController.m; sourceTree = "<group>"; };
+		6E0B5D511D813ECA00CAD043 /* MS_HomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MS_HomePageController.h; sourceTree = "<group>"; };
+		6E0B5D521D813ECA00CAD043 /* MS_HomePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MS_HomePageController.m; sourceTree = "<group>"; };
+		6E0B5D541D813EF100CAD043 /* ZRYU_HomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRYU_HomePageController.h; sourceTree = "<group>"; };
+		6E0B5D551D813EF100CAD043 /* ZRYU_HomePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRYU_HomePageController.m; sourceTree = "<group>"; };
+		6E0B5D571D813F5700CAD043 /* ZRYI_HomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRYI_HomePageController.h; sourceTree = "<group>"; };
+		6E0B5D581D813F5700CAD043 /* ZRYI_HomePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRYI_HomePageController.m; sourceTree = "<group>"; };
+		6E0B5D5A1D81428600CAD043 /* YP_HomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YP_HomePageController.h; sourceTree = "<group>"; };
+		6E0B5D5B1D81428600CAD043 /* YP_HomePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YP_HomePageController.m; sourceTree = "<group>"; };
+		6E0B5D601D8142A700CAD043 /* JX_HomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JX_HomePageController.h; sourceTree = "<group>"; };
+		6E0B5D611D8142A700CAD043 /* JX_HomePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JX_HomePageController.m; sourceTree = "<group>"; };
+		6E0B5D631D8142E500CAD043 /* BaoJ_HomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaoJ_HomePageController.h; sourceTree = "<group>"; };
+		6E0B5D641D8142E500CAD043 /* BaoJ_HomePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaoJ_HomePageController.m; sourceTree = "<group>"; };
+		6E0B5D661D8142F500CAD043 /* BanJ_HomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BanJ_HomePageController.h; sourceTree = "<group>"; };
+		6E0B5D671D8142F500CAD043 /* BanJ_HomePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BanJ_HomePageController.m; sourceTree = "<group>"; };
+		6E0B5D6D1D81434300CAD043 /* Profile_HomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile_HomePageController.h; sourceTree = "<group>"; };
+		6E0B5D6E1D81434300CAD043 /* Profile_HomePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile_HomePageController.m; sourceTree = "<group>"; };
+		6E0B5D751D814AB000CAD043 /* ZZPublicMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZPublicMethod.h; sourceTree = "<group>"; };
+		6E0B5D761D814AB000CAD043 /* ZZPublicMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZPublicMethod.m; sourceTree = "<group>"; };
+		6E24339E1D8134F30086E6AB /* ZZBaseTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZBaseTabBarViewController.h; sourceTree = "<group>"; };
+		6E24339F1D8134F30086E6AB /* ZZBaseTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZBaseTabBarViewController.m; sourceTree = "<group>"; };
+		6E4325F11D815FE50086EB4D /* YJ_HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJ_HomeCell.h; sourceTree = "<group>"; };
+		6E4325F21D815FE50086EB4D /* YJ_HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJ_HomeCell.m; sourceTree = "<group>"; };
+		6E43260A1D816C7C0086EB4D /* ZZHomeListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHomeListController.h; sourceTree = "<group>"; };
+		6E43260B1D816C7C0086EB4D /* ZZHomeListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHomeListController.m; sourceTree = "<group>"; };
+		6E43260E1D816C7C0086EB4D /* ZZHomeShowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHomeShowController.h; sourceTree = "<group>"; };
+		6E43260F1D816C7C0086EB4D /* ZZHomeShowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHomeShowController.m; sourceTree = "<group>"; };
+		6E4326111D816C7C0086EB4D /* ZZHomePageCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHomePageCollectionCell.h; sourceTree = "<group>"; };
+		6E4326121D816C7C0086EB4D /* ZZHomePageCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHomePageCollectionCell.m; sourceTree = "<group>"; };
+		6E4326131D816C7C0086EB4D /* ZZHomePageHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHomePageHeaderView.h; sourceTree = "<group>"; };
+		6E4326141D816C7C0086EB4D /* ZZHomePageHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHomePageHeaderView.m; sourceTree = "<group>"; };
+		6E4326191D816E040086EB4D /* ZZHomeListMateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHomeListMateView.h; sourceTree = "<group>"; };
+		6E43261A1D816E040086EB4D /* ZZHomeListMateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHomeListMateView.m; sourceTree = "<group>"; };
+		6E43261C1D816E860086EB4D /* ZZHomeListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHomeListCell.h; sourceTree = "<group>"; };
+		6E43261D1D816E860086EB4D /* ZZHomeListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHomeListCell.m; sourceTree = "<group>"; };
 		724425561707D7CEF8F0C5B5 /* Pods-ZZZiroom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZZiroom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZZiroom/Pods-ZZZiroom.debug.xcconfig"; sourceTree = "<group>"; };
 		A0DC3D63E0B9D9E9CCFBE9D4 /* Pods-ZZZiroom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZZiroom.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZZiroom/Pods-ZZZiroom.release.xcconfig"; sourceTree = "<group>"; };
 		D632AF6E1D598E1800B30967 /* ZZBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZBaseViewController.h; sourceTree = "<group>"; };
@@ -198,11 +255,118 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		6E0B5D691D81431E00CAD043 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				6E0B5D6A1D81431E00CAD043 /* Controller */,
+				6E0B5D6B1D81431E00CAD043 /* Model */,
+				6E0B5D6C1D81431E00CAD043 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		6E0B5D6A1D81431E00CAD043 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6E0B5D6D1D81434300CAD043 /* Profile_HomePageController.h */,
+				6E0B5D6E1D81434300CAD043 /* Profile_HomePageController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6E0B5D6B1D81431E00CAD043 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6E0B5D6C1D81431E00CAD043 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6E0B5D7C1D814B6D00CAD043 /* ModelLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelLayer;
+			sourceTree = "<group>";
+		};
+		6E4325F01D815C0D0086EB4D /* InterfaceLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InterfaceLayer;
+			sourceTree = "<group>";
+		};
+		6E4326071D816C7C0086EB4D /* GlobalControl */ = {
+			isa = PBXGroup;
+			children = (
+				6E4326081D816C7C0086EB4D /* HomeList */,
+				6E43260C1D816C7C0086EB4D /* HomeShow */,
+				6E4326101D816C7C0086EB4D /* View */,
+			);
+			path = GlobalControl;
+			sourceTree = "<group>";
+		};
+		6E4326081D816C7C0086EB4D /* HomeList */ = {
+			isa = PBXGroup;
+			children = (
+				6E43260A1D816C7C0086EB4D /* ZZHomeListController.h */,
+				6E43260B1D816C7C0086EB4D /* ZZHomeListController.m */,
+				6E4326091D816C7C0086EB4D /* View */,
+			);
+			path = HomeList;
+			sourceTree = "<group>";
+		};
+		6E4326091D816C7C0086EB4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E4326191D816E040086EB4D /* ZZHomeListMateView.h */,
+				6E43261A1D816E040086EB4D /* ZZHomeListMateView.m */,
+				6E43261C1D816E860086EB4D /* ZZHomeListCell.h */,
+				6E43261D1D816E860086EB4D /* ZZHomeListCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6E43260C1D816C7C0086EB4D /* HomeShow */ = {
+			isa = PBXGroup;
+			children = (
+				6E43260E1D816C7C0086EB4D /* ZZHomeShowController.h */,
+				6E43260F1D816C7C0086EB4D /* ZZHomeShowController.m */,
+				6E43260D1D816C7C0086EB4D /* View */,
+			);
+			path = HomeShow;
+			sourceTree = "<group>";
+		};
+		6E43260D1D816C7C0086EB4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6E4326101D816C7C0086EB4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E4326111D816C7C0086EB4D /* ZZHomePageCollectionCell.h */,
+				6E4326121D816C7C0086EB4D /* ZZHomePageCollectionCell.m */,
+				6E4326131D816C7C0086EB4D /* ZZHomePageHeaderView.h */,
+				6E4326141D816C7C0086EB4D /* ZZHomePageHeaderView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D632AF471D598DEF00B30967 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				D632AF481D598DEF00B30967 /* Life */,
 				D632AF591D598DEF00B30967 /* Reside */,
+				D632AF481D598DEF00B30967 /* Life */,
+				6E0B5D691D81431E00CAD043 /* Profile */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -231,6 +395,8 @@
 		D632AF4A1D598DEF00B30967 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				6E0B5D5A1D81428600CAD043 /* YP_HomePageController.h */,
+				6E0B5D5B1D81428600CAD043 /* YP_HomePageController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -262,6 +428,8 @@
 		D632AF4E1D598DEF00B30967 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				6E0B5D631D8142E500CAD043 /* BaoJ_HomePageController.h */,
+				6E0B5D641D8142E500CAD043 /* BaoJ_HomePageController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -293,6 +461,8 @@
 		D632AF521D598DEF00B30967 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				6E0B5D601D8142A700CAD043 /* JX_HomePageController.h */,
+				6E0B5D611D8142A700CAD043 /* JX_HomePageController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -324,6 +494,8 @@
 		D632AF561D598DEF00B30967 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				6E0B5D661D8142F500CAD043 /* BanJ_HomePageController.h */,
+				6E0B5D671D8142F500CAD043 /* BanJ_HomePageController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -347,9 +519,9 @@
 			children = (
 				D632AF5A1D598DEF00B30967 /* 友家 */,
 				D632AF5E1D598DEF00B30967 /* 整租 */,
-				D632AF621D598DEF00B30967 /* 民宿 */,
 				D632AF661D598DEF00B30967 /* 自如寓 */,
 				D632AF6A1D598DEF00B30967 /* 自如驿 */,
+				D632AF621D598DEF00B30967 /* 民宿 */,
 			);
 			path = Reside;
 			sourceTree = "<group>";
@@ -367,6 +539,8 @@
 		D632AF5B1D598DEF00B30967 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				6E0B5D4B1D813EA100CAD043 /* YJ_HomePageController.h */,
+				6E0B5D4C1D813EA100CAD043 /* YJ_HomePageController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -381,6 +555,8 @@
 		D632AF5D1D598DEF00B30967 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6E4325F11D815FE50086EB4D /* YJ_HomeCell.h */,
+				6E4325F21D815FE50086EB4D /* YJ_HomeCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -398,6 +574,8 @@
 		D632AF5F1D598DEF00B30967 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				6E0B5D4E1D813EB600CAD043 /* ZZ_HomePageController.h */,
+				6E0B5D4F1D813EB600CAD043 /* ZZ_HomePageController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -429,6 +607,8 @@
 		D632AF631D598DEF00B30967 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				6E0B5D511D813ECA00CAD043 /* MS_HomePageController.h */,
+				6E0B5D521D813ECA00CAD043 /* MS_HomePageController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -460,6 +640,8 @@
 		D632AF671D598DEF00B30967 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				6E0B5D541D813EF100CAD043 /* ZRYU_HomePageController.h */,
+				6E0B5D551D813EF100CAD043 /* ZRYU_HomePageController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -491,6 +673,8 @@
 		D632AF6B1D598DEF00B30967 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				6E0B5D571D813F5700CAD043 /* ZRYI_HomePageController.h */,
+				6E0B5D581D813F5700CAD043 /* ZRYI_HomePageController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -557,6 +741,9 @@
 			children = (
 				D66DBA9E1D53352100056EE2 /* Base */,
 				D66DBA9F1D53352100056EE2 /* Category */,
+				6E4326071D816C7C0086EB4D /* GlobalControl */,
+				6E0B5D7C1D814B6D00CAD043 /* ModelLayer */,
+				6E4325F01D815C0D0086EB4D /* InterfaceLayer */,
 				D632AF471D598DEF00B30967 /* Home */,
 				D66DBAA11D53352100056EE2 /* Lib */,
 				D66DBAA21D53352100056EE2 /* Other */,
@@ -573,6 +760,8 @@
 				D632AF6F1D598E1800B30967 /* ZZBaseViewController.m */,
 				D632AF711D598E5900B30967 /* ZZBaseNavController.h */,
 				D632AF721D598E5900B30967 /* ZZBaseNavController.m */,
+				6E24339E1D8134F30086E6AB /* ZZBaseTabBarViewController.h */,
+				6E24339F1D8134F30086E6AB /* ZZBaseTabBarViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -678,6 +867,8 @@
 			children = (
 				D65589AC1D59A02400EB2A73 /* ZZConst.h */,
 				D65589AD1D59A02400EB2A73 /* ZZConst.m */,
+				6E0B5D751D814AB000CAD043 /* ZZPublicMethod.h */,
+				6E0B5D761D814AB000CAD043 /* ZZPublicMethod.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -939,14 +1130,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E0B5D4D1D813EA100CAD043 /* YJ_HomePageController.m in Sources */,
+				6E0B5D6F1D81434300CAD043 /* Profile_HomePageController.m in Sources */,
+				6E4326181D816C7C0086EB4D /* ZZHomePageHeaderView.m in Sources */,
 				D65589A61D599E9900EB2A73 /* UIImage+Extension.m in Sources */,
+				6E43261B1D816E040086EB4D /* ZZHomeListMateView.m in Sources */,
+				6E4326171D816C7C0086EB4D /* ZZHomePageCollectionCell.m in Sources */,
+				6E0B5D531D813ECA00CAD043 /* MS_HomePageController.m in Sources */,
+				6E0B5D651D8142E500CAD043 /* BaoJ_HomePageController.m in Sources */,
+				6E43261E1D816E860086EB4D /* ZZHomeListCell.m in Sources */,
+				6E0B5D501D813EB600CAD043 /* ZZ_HomePageController.m in Sources */,
 				D65589A31D599E4E00EB2A73 /* UIDevice+Extension.m in Sources */,
 				D632AF731D598E5900B30967 /* ZZBaseNavController.m in Sources */,
+				6E0B5D5C1D81428600CAD043 /* YP_HomePageController.m in Sources */,
+				6E0B5D681D8142F500CAD043 /* BanJ_HomePageController.m in Sources */,
 				D632AF701D598E1800B30967 /* ZZBaseViewController.m in Sources */,
 				D65589AE1D59A02400EB2A73 /* ZZConst.m in Sources */,
+				6E0B5D621D8142A700CAD043 /* JX_HomePageController.m in Sources */,
 				D66DBA8B1D5332DB00056EE2 /* AppDelegate.m in Sources */,
+				6E0B5D591D813F5700CAD043 /* ZRYI_HomePageController.m in Sources */,
+				6E4326161D816C7C0086EB4D /* ZZHomeShowController.m in Sources */,
+				6E0B5D771D814AB000CAD043 /* ZZPublicMethod.m in Sources */,
+				6E4325F31D815FE50086EB4D /* YJ_HomeCell.m in Sources */,
+				6E2433A01D8134F30086E6AB /* ZZBaseTabBarViewController.m in Sources */,
 				D65589A91D599ED300EB2A73 /* UIView+Extension.m in Sources */,
 				D66DBA881D5332DB00056EE2 /* main.m in Sources */,
+				6E4326151D816C7C0086EB4D /* ZZHomeListController.m in Sources */,
+				6E0B5D561D813EF100CAD043 /* ZRYU_HomePageController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
