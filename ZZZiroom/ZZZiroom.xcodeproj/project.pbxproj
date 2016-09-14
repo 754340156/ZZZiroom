@@ -27,6 +27,7 @@
 		6E4326181D816C7C0086EB4D /* ZZHomePageHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4326141D816C7C0086EB4D /* ZZHomePageHeaderView.m */; };
 		6E43261B1D816E040086EB4D /* ZZHomeListMateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E43261A1D816E040086EB4D /* ZZHomeListMateView.m */; };
 		6E43261E1D816E860086EB4D /* ZZHomeListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E43261D1D816E860086EB4D /* ZZHomeListCell.m */; };
+		6E5375891D828AB50005E650 /* ZZHomeMate_NearbyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5375881D828AB50005E650 /* ZZHomeMate_NearbyController.m */; };
 		D632AF701D598E1800B30967 /* ZZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D632AF6F1D598E1800B30967 /* ZZBaseViewController.m */; };
 		D632AF731D598E5900B30967 /* ZZBaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = D632AF721D598E5900B30967 /* ZZBaseNavController.m */; };
 		D65589A31D599E4E00EB2A73 /* UIDevice+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D65589A21D599E4E00EB2A73 /* UIDevice+Extension.m */; };
@@ -120,6 +121,8 @@
 		6E43261A1D816E040086EB4D /* ZZHomeListMateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHomeListMateView.m; sourceTree = "<group>"; };
 		6E43261C1D816E860086EB4D /* ZZHomeListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHomeListCell.h; sourceTree = "<group>"; };
 		6E43261D1D816E860086EB4D /* ZZHomeListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHomeListCell.m; sourceTree = "<group>"; };
+		6E5375871D828AB50005E650 /* ZZHomeMate_NearbyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHomeMate_NearbyController.h; sourceTree = "<group>"; };
+		6E5375881D828AB50005E650 /* ZZHomeMate_NearbyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHomeMate_NearbyController.m; sourceTree = "<group>"; };
 		724425561707D7CEF8F0C5B5 /* Pods-ZZZiroom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZZiroom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZZiroom/Pods-ZZZiroom.debug.xcconfig"; sourceTree = "<group>"; };
 		A0DC3D63E0B9D9E9CCFBE9D4 /* Pods-ZZZiroom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZZiroom.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZZiroom/Pods-ZZZiroom.release.xcconfig"; sourceTree = "<group>"; };
 		D632AF6E1D598E1800B30967 /* ZZBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZBaseViewController.h; sourceTree = "<group>"; };
@@ -329,6 +332,7 @@
 				6E43261A1D816E040086EB4D /* ZZHomeListMateView.m */,
 				6E43261C1D816E860086EB4D /* ZZHomeListCell.h */,
 				6E43261D1D816E860086EB4D /* ZZHomeListCell.m */,
+				6E5375831D828A360005E650 /* MateView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -361,6 +365,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		6E5375831D828A360005E650 /* MateView */ = {
+			isa = PBXGroup;
+			children = (
+				6E5375871D828AB50005E650 /* ZZHomeMate_NearbyController.h */,
+				6E5375881D828AB50005E650 /* ZZHomeMate_NearbyController.m */,
+			);
+			path = MateView;
+			sourceTree = "<group>";
+		};
 		D632AF471D598DEF00B30967 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -374,10 +387,10 @@
 		D632AF481D598DEF00B30967 /* Life */ = {
 			isa = PBXGroup;
 			children = (
-				D632AF491D598DEF00B30967 /* 优品 */,
 				D632AF4D1D598DEF00B30967 /* 保洁 */,
-				D632AF511D598DEF00B30967 /* 家修 */,
 				D632AF551D598DEF00B30967 /* 搬家 */,
+				D632AF511D598DEF00B30967 /* 家修 */,
+				D632AF491D598DEF00B30967 /* 优品 */,
 			);
 			path = Life;
 			sourceTree = "<group>";
@@ -1142,6 +1155,7 @@
 				6E0B5D501D813EB600CAD043 /* ZZ_HomePageController.m in Sources */,
 				D65589A31D599E4E00EB2A73 /* UIDevice+Extension.m in Sources */,
 				D632AF731D598E5900B30967 /* ZZBaseNavController.m in Sources */,
+				6E5375891D828AB50005E650 /* ZZHomeMate_NearbyController.m in Sources */,
 				6E0B5D5C1D81428600CAD043 /* YP_HomePageController.m in Sources */,
 				6E0B5D681D8142F500CAD043 /* BanJ_HomePageController.m in Sources */,
 				D632AF701D598E1800B30967 /* ZZBaseViewController.m in Sources */,

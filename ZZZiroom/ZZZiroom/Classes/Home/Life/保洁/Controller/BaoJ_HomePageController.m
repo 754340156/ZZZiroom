@@ -3,12 +3,14 @@
 //  ZZZiroom
 //
 //  Created by 宝贝计画 on 16/9/8.
-//  Copyright © 2016年 lanou3g-22赵哲. All rights reserved.
+//  Copyright © 2016年 赵哲. All rights reserved.
 //
 
 #import "BaoJ_HomePageController.h"
 
-@interface BaoJ_HomePageController ()
+@interface BaoJ_HomePageController ()<UITableViewDelegate,UITableViewDataSource>
+/**  <#Description#> */
+@property (nonatomic, strong) UITableView * tableView;
 
 @end
 
@@ -16,22 +18,42 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self setTableView];
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - setup
+- (void)setTableView
+{
+    self.tableView = [[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain];
+    self.tableView.delegate =self;
+    self.tableView.dataSource = self;
+    [self.view addSubview:self.tableView];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark - UITableViewDelegate
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 3;
 }
-*/
-
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 1;
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *ID = @"identifier";
+    UITableViewCell *cell  = [tableView dequeueReusableCellWithIdentifier:ID];
+    if (!cell) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
+    }
+    
+    cell.textLabel.text = [NSString stringWithFormat:@"%ld---%ld",(long)indexPath.section,(long)indexPath.row];
+    return cell;
+}
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    return nil;
+}
+- (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section
+{
+    return nil;
+}
 @end

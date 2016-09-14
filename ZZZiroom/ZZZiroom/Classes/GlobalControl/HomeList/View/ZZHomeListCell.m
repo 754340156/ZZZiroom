@@ -3,7 +3,7 @@
 //  ZZZiroom
 //
 //  Created by 宝贝计画 on 16/9/8.
-//  Copyright © 2016年 lanou3g-22赵哲. All rights reserved.
+//  Copyright © 2016年 赵哲. All rights reserved.
 //
 
 #import "ZZHomeListCell.h"
@@ -21,9 +21,6 @@
 @property (nonatomic, strong) UILabel * distanceLabel;
 /**  标签 */
 @property (nonatomic, strong) UIView * markView;
-
-
-
 @end
 
 
@@ -92,7 +89,6 @@
     [self.markView mas_makeConstraints:^(MASConstraintMaker *make) {
         
     }];
-    
 }
 #pragma mark - 
 @end

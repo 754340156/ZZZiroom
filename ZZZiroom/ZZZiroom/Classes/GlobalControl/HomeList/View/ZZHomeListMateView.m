@@ -3,7 +3,7 @@
 //  ZZZiroom
 //
 //  Created by 宝贝计画 on 16/9/8.
-//  Copyright © 2016年 lanou3g-22赵哲. All rights reserved.
+//  Copyright © 2016年 赵哲. All rights reserved.
 //
 
 #import "ZZHomeListMateView.h"
@@ -46,6 +46,7 @@
         button.tag = 1000 + i;
         [button addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
         [button setTitle:self.mateBtnArray[i] forState:UIControlStateNormal];
+        [button setImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];
         [self addSubview:button];
         [button mas_makeConstraints:^(MASConstraintMaker *make) {
             make.size.mas_offset(CGSizeMake(distance, self.ZZ_height));
@@ -53,12 +54,13 @@
             make.left.offset((distance + ZZRealValue(1)) * i);
         }];
     }
-
 }
 #pragma mark - target
 - (void)buttonAction:(UIButton * )sender
 {
-    sender.selected = !sender.selected;
+    if (self.delegate && [self.delegate respondsToSelector:@selector(ZZHomeListMateView_CilckBtn:)]) {
+        [self.delegate ZZHomeListMateView_CilckBtn:sender];
+    }
 }
 #pragma mark - 懒加载
 - (NSArray *)mateBtnArray
