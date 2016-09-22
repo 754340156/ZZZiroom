@@ -27,16 +27,16 @@
 #pragma mark - setup
 - (void)setup
 {
-    CGFloat distance = (ZZScreenWidth - ZZRealValue(1)) /self.mateBtnArray.count ;
+    CGFloat distance = (kScreenWidth - ZZRealValue47(1)) /self.mateBtnArray.count ;
     //布局竖线
     for (NSInteger i = 0; i < self.mateBtnArray.count - 1; i++) {
         UIView *lineView = [[UIView alloc] init];
         lineView.backgroundColor = [UIColor grayColor];
         [self addSubview:lineView];
         [lineView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.top.offset(ZZRealValue(5));
-            make.bottom.offset(ZZRealValue(-5));
-            make.width.offset(ZZRealValue(1));
+            make.top.offset(ZZRealValue47(5));
+            make.bottom.offset(ZZRealValue47(-5));
+            make.width.offset(ZZRealValue47(1));
             make.left.offset(distance * (i + 1));
         }];
     }
@@ -51,7 +51,7 @@
         [button mas_makeConstraints:^(MASConstraintMaker *make) {
             make.size.mas_offset(CGSizeMake(distance, self.ZZ_height));
             make.top.offset(0);
-            make.left.offset((distance + ZZRealValue(1)) * i);
+            make.left.offset((distance + ZZRealValue47(1)) * i);
         }];
     }
 }

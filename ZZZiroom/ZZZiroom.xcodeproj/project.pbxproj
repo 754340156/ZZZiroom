@@ -1000,12 +1000,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D66DBA9A1D5332DB00056EE2 /* Build configuration list for PBXNativeTarget "ZZZiroom" */;
 			buildPhases = (
-				CC71C485A0D83BC47197A951 /* 📦 Check Pods Manifest.lock */,
+				CC71C485A0D83BC47197A951 /* [CP] Check Pods Manifest.lock */,
 				D66DBA7F1D5332DB00056EE2 /* Sources */,
 				D66DBA801D5332DB00056EE2 /* Frameworks */,
 				D66DBA811D5332DB00056EE2 /* Resources */,
-				ED00839B1391EA4921294EB5 /* 📦 Embed Pods Frameworks */,
-				396F2D4D50A4BF5BFF03DC16 /* 📦 Copy Pods Resources */,
+				ED00839B1391EA4921294EB5 /* [CP] Embed Pods Frameworks */,
+				396F2D4D50A4BF5BFF03DC16 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1022,11 +1022,13 @@
 		D66DBA7B1D5332DB00056EE2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "lanou3g-22赵哲";
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = zhaozhe;
 				TargetAttributes = {
 					D66DBA821D5332DB00056EE2 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4M826C7G72;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -1096,14 +1098,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		396F2D4D50A4BF5BFF03DC16 /* 📦 Copy Pods Resources */ = {
+		396F2D4D50A4BF5BFF03DC16 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1111,14 +1113,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZZZiroom/Pods-ZZZiroom-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CC71C485A0D83BC47197A951 /* 📦 Check Pods Manifest.lock */ = {
+		CC71C485A0D83BC47197A951 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1126,14 +1128,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		ED00839B1391EA4921294EB5 /* 📦 Embed Pods Frameworks */ = {
+		ED00839B1391EA4921294EB5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1215,6 +1217,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1224,8 +1227,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1260,6 +1265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1269,8 +1275,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1302,6 +1310,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4M826C7G72;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ZZZiroom/Classes/Lib/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
@@ -1318,6 +1328,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZZZiroom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -1328,6 +1340,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4M826C7G72;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ZZZiroom/Classes/Lib/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",

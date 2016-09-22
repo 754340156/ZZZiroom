@@ -45,12 +45,12 @@
         make.top.offset(0);
         make.left.offset(0);
         make.right.offset(0);
-        make.height.offset(ZZRealValue(50));
+        make.height.offset(ZZRealValue47(50));
     }];
 }
 - (void)setTableView
 {
-    self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, ZZRealValue(50), ZZScreenWidth, ZZScreenHeight - ZZRealValue(50))     style:UITableViewStylePlain];
+    self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, ZZRealValue47(50), kScreenWidth, kScreenHeight - ZZRealValue47(50))     style:UITableViewStylePlain];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     [self.view addSubview:self.tableView];
@@ -87,7 +87,7 @@
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return ZZRealValue(150);
+    return ZZRealValue47(150);
 }
 #pragma mark - 懒加载
 - (NSMutableArray *)dataArray

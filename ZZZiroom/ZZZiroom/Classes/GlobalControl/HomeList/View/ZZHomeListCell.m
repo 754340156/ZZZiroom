@@ -63,16 +63,16 @@
 {
     [super layoutSubviews];
     [self.imageV mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.offset(ZZRealValue(10));
-        make.left.offset(ZZRealValue(10));
-        make.bottom.offset(-ZZRealValue(10));
-        make.width.offset(ZZRealValue(120));
+        make.top.offset(ZZRealValue47(10));
+        make.left.offset(ZZRealValue47(10));
+        make.bottom.offset(-ZZRealValue47(10));
+        make.width.offset(ZZRealValue47(120));
     }];
     
     [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(self.imageV.mas_right).offset(ZZRealValue(10));
+        make.left.equalTo(self.imageV.mas_right).offset(ZZRealValue47(10));
         make.top.equalTo(self.imageV.mas_top);
-        make.height.offset(ZZRealValue(25));
+        make.height.offset(ZZRealValue47(25));
     }];
     
     [self.spaceLabel mas_makeConstraints:^(MASConstraintMaker *make) {

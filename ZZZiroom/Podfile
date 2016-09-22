@@ -12,4 +12,5 @@ pod 'Masonry'
 pod 'BaiduMapKit'
 pod 'FMDB'
 pod 'TZImagePickerController'
+pod 'SDCycleScrollView'
 end

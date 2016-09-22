@@ -32,8 +32,8 @@
 #pragma mark - setup
 - (void)setTableViewWithIndex:(NSInteger)index tableView:(UITableView *)tableView
 {
-    CGFloat tableViewW = ZZScreenWidth / 3;
-    tableView = [[UITableView alloc] initWithFrame:CGRectMake((index - 1) * tableViewW, 0, tableViewW, ZZRealValue(500)) style:UITableViewStylePlain];
+    CGFloat tableViewW = kScreenWidth / 3;
+    tableView = [[UITableView alloc] initWithFrame:CGRectMake((index - 1) * tableViewW, 0, tableViewW, ZZRealValue47(500)) style:UITableViewStylePlain];
     tableView.delegate = self;
     tableView.dataSource = self;
     [self.view addSubview:tableView];

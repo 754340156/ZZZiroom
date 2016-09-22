@@ -42,33 +42,33 @@
     }];
     
     self.searchBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [self.searchBtn setCornerWithRadius:ZZRealValue(25) borderWidth:0 borderColor:nil];
+    [self.searchBtn setCornerWithRadius:ZZRealValue47(25) borderWidth:0 borderColor:nil];
     [self addSubview:self.searchBtn];
     [self.searchBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.size.mas_offset(CGSizeMake(ZZRealValue(50), ZZRealValue(50)));
-        make.right.offset(-ZZRealValue(20));
+        make.size.mas_offset(CGSizeMake(ZZRealValue47(50), ZZRealValue47(50)));
+        make.right.offset(-ZZRealValue47(20));
         make.centerY.equalTo(self.imageView.mas_bottom);
     }];
     
     self.titleLabel = [[UILabel alloc] init];
     [self.titleLabel sizeToFit];
     [self addSubview:self.titleLabel];
-    self.titleLabel.font = [UIFont systemFontOfSize:ZZRealValue(15) weight:20];
+    self.titleLabel.font = [UIFont systemFontOfSize:ZZRealValue47(15) weight:20];
     [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.offset(ZZRealValue(20));
-        make.top.equalTo(self.imageView.mas_bottom).offset(ZZRealValue(40));
-        make.height.offset(ZZRealValue(40));
+        make.left.offset(ZZRealValue47(20));
+        make.top.equalTo(self.imageView.mas_bottom).offset(ZZRealValue47(40));
+        make.height.offset(ZZRealValue47(40));
     }];
     
     self.subTitleLabel = [[UILabel alloc] init];
     [self.subTitleLabel sizeToFit];
     [self addSubview:self.subTitleLabel];
-    self.subTitleLabel.font = [UIFont systemFontOfSize:ZZRealValue(14)];
+    self.subTitleLabel.font = [UIFont systemFontOfSize:ZZRealValue47(14)];
     self.subTitleLabel.textColor = [UIColor grayColor];
     [self.subTitleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.titleLabel.mas_bottom);
         make.left.equalTo(self.titleLabel.mas_left);
-        make.height.offset(ZZRealValue(20));
+        make.height.offset(ZZRealValue47(20));
     }];
 }
 

@@ -61,15 +61,15 @@
 {
     [super layoutSubviews];
     [self.headerLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.offset(ZZRealValue(20));
-        make.left.offset(ZZRealValue(20));
-        make.height.offset(ZZRealValue(25));
+        make.top.offset(ZZRealValue47(20));
+        make.left.offset(ZZRealValue47(20));
+        make.height.offset(ZZRealValue47(25));
     }];
     
     [self.moreBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerY.equalTo(self.headerLabel.mas_centerY);
-        make.right.offset(-ZZRealValue(20));
-        make.size.mas_offset(CGSizeMake(ZZRealValue(60), ZZRealValue(20)));
+        make.right.offset(-ZZRealValue47(20));
+        make.size.mas_offset(CGSizeMake(ZZRealValue47(60), ZZRealValue47(20)));
     }];
     
     [self.collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
