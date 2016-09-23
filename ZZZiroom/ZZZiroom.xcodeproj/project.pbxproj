@@ -20,6 +20,8 @@
 		6E0B5D6F1D81434300CAD043 /* Profile_HomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0B5D6E1D81434300CAD043 /* Profile_HomePageController.m */; };
 		6E0B5D771D814AB000CAD043 /* ZZPublicMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0B5D761D814AB000CAD043 /* ZZPublicMethod.m */; };
 		6E2433A01D8134F30086E6AB /* ZZBaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E24339F1D8134F30086E6AB /* ZZBaseTabBarViewController.m */; };
+		6E3048141D952DF500620979 /* ZZHomeShow_ InstallationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3048131D952DF500620979 /* ZZHomeShow_ InstallationCell.m */; };
+		6E3048171D95397000620979 /* ZZHomeShow_InformationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3048161D95397000620979 /* ZZHomeShow_InformationCell.m */; };
 		6E4325F31D815FE50086EB4D /* YJ_HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4325F21D815FE50086EB4D /* YJ_HomeCell.m */; };
 		6E4326151D816C7C0086EB4D /* ZZHomeListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E43260B1D816C7C0086EB4D /* ZZHomeListController.m */; };
 		6E4326161D816C7C0086EB4D /* ZZHomeShowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E43260F1D816C7C0086EB4D /* ZZHomeShowController.m */; };
@@ -108,6 +110,10 @@
 		6E0B5D761D814AB000CAD043 /* ZZPublicMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZPublicMethod.m; sourceTree = "<group>"; };
 		6E24339E1D8134F30086E6AB /* ZZBaseTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZBaseTabBarViewController.h; sourceTree = "<group>"; };
 		6E24339F1D8134F30086E6AB /* ZZBaseTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZBaseTabBarViewController.m; sourceTree = "<group>"; };
+		6E3048121D952DF500620979 /* ZZHomeShow_ InstallationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZZHomeShow_ InstallationCell.h"; sourceTree = "<group>"; };
+		6E3048131D952DF500620979 /* ZZHomeShow_ InstallationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZZHomeShow_ InstallationCell.m"; sourceTree = "<group>"; };
+		6E3048151D95397000620979 /* ZZHomeShow_InformationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHomeShow_InformationCell.h; sourceTree = "<group>"; };
+		6E3048161D95397000620979 /* ZZHomeShow_InformationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHomeShow_InformationCell.m; sourceTree = "<group>"; };
 		6E4325F11D815FE50086EB4D /* YJ_HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJ_HomeCell.h; sourceTree = "<group>"; };
 		6E4325F21D815FE50086EB4D /* YJ_HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJ_HomeCell.m; sourceTree = "<group>"; };
 		6E43260A1D816C7C0086EB4D /* ZZHomeListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHomeListController.h; sourceTree = "<group>"; };
@@ -355,6 +361,10 @@
 			children = (
 				6E466A631D8FE1A300964DD6 /* ZZHomeShow_HeaderCell.h */,
 				6E466A641D8FE1A300964DD6 /* ZZHomeShow_HeaderCell.m */,
+				6E3048121D952DF500620979 /* ZZHomeShow_ InstallationCell.h */,
+				6E3048131D952DF500620979 /* ZZHomeShow_ InstallationCell.m */,
+				6E3048151D95397000620979 /* ZZHomeShow_InformationCell.h */,
+				6E3048161D95397000620979 /* ZZHomeShow_InformationCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1150,10 +1160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E3048141D952DF500620979 /* ZZHomeShow_ InstallationCell.m in Sources */,
 				6E0B5D4D1D813EA100CAD043 /* YJ_HomePageController.m in Sources */,
 				6E0B5D6F1D81434300CAD043 /* Profile_HomePageController.m in Sources */,
 				6E4326181D816C7C0086EB4D /* ZZHomePageHeaderView.m in Sources */,
 				D65589A61D599E9900EB2A73 /* UIImage+Extension.m in Sources */,
+				6E3048171D95397000620979 /* ZZHomeShow_InformationCell.m in Sources */,
 				6E43261B1D816E040086EB4D /* ZZHomeListMateView.m in Sources */,
 				6E4326171D816C7C0086EB4D /* ZZHomePageCollectionCell.m in Sources */,
 				6E0B5D531D813ECA00CAD043 /* MS_HomePageController.m in Sources */,

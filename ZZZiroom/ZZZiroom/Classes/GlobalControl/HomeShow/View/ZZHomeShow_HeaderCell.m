@@ -68,7 +68,8 @@
     
     //付款方式
     self.paymentBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [self.paymentBtn setImage:[UIImage imageNamed:@"er_payway"] forState:UIControlStateNormal];
+    self.paymentBtn.titleLabel.font = [UIFont systemFontOfSize:ZZRealValue55(15)];
+    [self.paymentBtn setImage:[UIImage imageNamed:@"er_payway"]forState:UIControlStateNormal];
     [self.paymentBtn setTitle:@"付款方式" forState:UIControlStateNormal];
     [self.paymentBtn addTarget:self action:@selector(paymentAction) forControlEvents:UIControlEventTouchUpInside];
     [self.contentView addSubview:self.paymentBtn];
@@ -86,6 +87,26 @@
     self.graylineV2 = [[UIView alloc] init];
     [self.contentView addSubview:self.graylineV2];
     
+    //面积
+    self.areaLabel = [[UILabel alloc] init];
+    self.areaLabel.font = [UIFont systemFontOfSize:ZZRealValue55(15)];
+    [self.contentView addSubview:self.areaLabel];
+    
+    //楼层
+    self.storeyLabel = [[UILabel alloc] init];
+    [self.storeyLabel sizeToFit];
+    self.storeyLabel.textAlignment = NSTextAlignmentCenter;
+    self.storeyLabel.font = [UIFont systemFontOfSize:ZZRealValue55(15)];
+    [self.contentView addSubview:self.storeyLabel];
+    
+    //朝向
+    self.orientationLabel = [[UILabel alloc] init];
+    self.orientationLabel.textAlignment = NSTextAlignmentRight;
+    self.orientationLabel.font = [UIFont systemFontOfSize:ZZRealValue55(15)];
+    [self.contentView addSubview:self.orientationLabel];
+    
+    self.tagView = [[UIView alloc] init];
+    [self.contentView addSubview:self.tagView];
 }
 - (void)layoutSubviews
 {
@@ -113,7 +134,48 @@
         make.right.offset(0);
         make.height.offset(ZZRealValue55(35));
     }];
+    
+    [self.housingLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.offset(0);
+        make.centerX.offset(0);
+        make.size.mas_offset(CGSizeMake(ZZRealValue55(50), ZZRealValue55(20)));
+    }];
+    [self.graylineV1 mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerY.equalTo(self.housingLabel.mas_centerY);
+        make.left.offset(ZZRealValue55(15));
+        make.right.equalTo(self.housingLabel.mas_left).offset(ZZRealValue55(-15));
+        make.height.offset(1);
+    }];
+    [self.graylineV2 mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerY.equalTo(self.housingLabel.mas_centerY);
+        make.left.equalTo(self.housingLabel.mas_right).offset(ZZRealValue55(15));
+        make.right.offset(ZZRealValue55(-15));
+        make.height.offset(1);
+    }];
+    [self.storeyLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.offset(0);
+        make.top.equalTo(self.housingLabel.mas_bottom).offset(ZZRealValue55(5));
+        make.height.offset(ZZRealValue55(25));
+    }];
+    [self.areaLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(self.graylineV1.mas_left);
+        make.right.equalTo(self.storeyLabel.mas_left).offset(ZZRealValue55(10));
+        make.height.offset(ZZRealValue55(25));
+        make.centerY.equalTo(self.storeyLabel.mas_centerY);
+    }];
+    [self.orientationLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerY.equalTo(self.storeyLabel.mas_centerY);
+        make.left.equalTo(self.storeyLabel.mas_right).offset(ZZRealValue55(10));
+        make.right.equalTo(self.graylineV2.mas_right);
+        make.height.offset(ZZRealValue55(25));
+    }];
+    [self.tagView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.right.bottom.offset(0);
+        make.top.equalTo(self.storeyLabel.mas_bottom);
+    }];
 }
+#warning 动态增加下面的标签
+
 #pragma mark -  SDCycleScrollViewDelegate
 - (void)cycleScrollView:(SDCycleScrollView *)cycleScrollView didSelectItemAtIndex:(NSInteger)index
 {
